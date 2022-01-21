@@ -11,8 +11,8 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin: 2rem;
 }
+
 .main{
     max-width: 650px;
     width: 100%;
@@ -21,6 +21,8 @@ body{
     background-color: #6200ee;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    overflow: hidden;
 }
 
 .left-comp{
@@ -62,4 +64,20 @@ body{
     background-color: #731deb;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.content-div{
+    max-width: 650px;
+    width: 100%;
+    margin-top: 3.5rem;
+    height: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    font-family: Roboto, sans-serif, serif;
+    font-size: 1rem;
 }

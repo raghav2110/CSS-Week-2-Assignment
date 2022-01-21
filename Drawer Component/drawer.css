@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.content-div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.content-header{
+    display: flex;
+    height: 4rem;
+    font-family: Roboto, sans-serif, serif;
+    font-size: 1.25rem;
+    color:white;
+    background-color: #6200ee;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+.content-body{
+    overflow-y: scroll;
+}
+
+p{
+    font-family: Roboto, sans-serif, serif;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1rem;
+}
