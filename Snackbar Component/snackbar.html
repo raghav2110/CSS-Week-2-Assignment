@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS-Week-2-Assignment/Snackbar Component/snackbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Snackbar Component</title>
+</head>
+<body>
+    <div class="btn-div">
+        <button class="baseline-btn">Baseline</button>
+        <button class="leading-btn">Leading</button>
+        <button class="stacked-btn">Stacked</button>
+    </div>
+    <div class="main-div">
+        <div class="show-snackbar-baseline">
+            <div class="left-comp">
+                <div>Can't send photo. Retry in 5 seconds.</div>
+            </div>
+            <div class="right-comp">
+                <div class="text-retry">RETRY</div>
+                <i class="fa fa-times" id="close-baseline"></i>
+            </div> 
+        </div>
+        <div class="show-snackbar-leading"> 
+            <div class="left-comp">
+                <div>Your photo has been archived.</div>
+            </div>
+            <div class="right-comp">
+                <div class="text-retry">UNDO</div>
+                <i class="fa fa-times" id="close-leading"></i>
+            </div>
+        </div>
+        <div class="show-snackbar-stacked"> 
+            <div class="left-comp">
+                <div>This item already has the label "travel". You can add a new label.</div>
+            </div>
+            <div class="right-comp">
+                <div class="text-retry">ADD A NEW LABEL</div>
+                <i class="fa fa-times" id="close-stacked"></i>
+            </div>
+        </div>
+    </div>
+    <script src="/CSS-Week-2-Assignment/Snackbar Component/snackbar.js"></script>
+</body>
+</html>

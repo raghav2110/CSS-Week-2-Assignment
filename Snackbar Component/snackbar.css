@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.btn-div{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 2rem 2rem 25rem 2rem;
+}
+
+button{
+    padding: 0.5rem;
+    background-color: #6200ee;
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.show-snackbar-baseline{
+    visibility: hidden;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+.show-snackbar-leading{
+    visibility: hidden;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+.show-snackbar-stacked{
+    visibility: hidden;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+.left-comp{
+    padding: 1rem;
+    color: white;
+    font-family: Roboto, sans-serif, serif;
+}
+
+.right-comp{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    color: white;
+    font-family: Roboto, sans-serif, serif;
+}
+
+.text-retry{
+    color: #bb86fc;
+    padding-right: 2rem;
+    font-family: Roboto, sans-serif, serif;
+}
