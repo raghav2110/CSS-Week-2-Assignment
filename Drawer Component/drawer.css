@@ -4,6 +4,66 @@
     box-sizing: border-box;
 }
 
+.main-div{
+    display: flex;
+    margin: 0;
+    max-width: 1200px;
+}
+
+.side-nav-div{
+    width: 900px;
+    padding: 1rem 1rem 1rem 1rem;
+    border-right: 1px solid black;
+}
+
+.user-name{
+    font-family: Roboto, sans-serif, serif;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+.user-email{
+    color: #7C99AC;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav-items{
+    font-family: Roboto, sans-serif, serif;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 400;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.menu-items{
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0.5rem;
+}
+
+.menu-items:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 0.6rem;
+}
+
+.menu-items i{
+    color: black;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+.menu-items span{
+    color: black;
+    font-size: 1rem;
+}
+
+.active {
+    color: #781df0;
+    background-color: #781df02f;
+    border-radius: 10px;
+  }
+
 .content-div{
     display: flex;
     flex-flow: column wrap;
