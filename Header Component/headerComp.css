@@ -25,6 +25,17 @@ body{
     overflow: hidden;
 }
 
+.main-only-header{
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #6200ee;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
 .left-comp{
     display: flex;
     flex-direction: row;
