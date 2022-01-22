@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div-alert{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,.32); /* Black w/ opacity */
+}
+
+.main-div-simple{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,.32); /* Black w/ opacity */
+}
+
+.btn-div{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+button{
+    padding: 0.5rem;
+    background-color: #6200ee;
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.show-dialog-alert{
+    visibility: hidden;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+}
+
+.dialog-header{
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    color: black;
+    font-family: Roboto, sans-serif;
+}
+.alert-header{
+    padding: 16px 24px 9px;
+}
+.dialog-body{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0,0,0,.6);
+    padding: 20px 24px;
+    font-family: Roboto, sans-serif;
+}
+
+.action-btn{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 8px;
+}
+
+.action-btn button{
+    font-family: Roboto, sans-serif;
+    background-color: transparent;
+    color: #6200ee;
+    border: transparent;
+    margin: 0.5rem;
+}
+
+.action-btn button:hover{
+    background-color: #fcf6ff;
+}
+
+.show-dialog-simple{
+    visibility: hidden;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+}
+
+.simple-content{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.simple-header{
+    padding: 16px 16px 9px 16px;
+    text-align: center;
+}
+
+.simple-content i{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem ;
+    margin: 1rem;
+}
+
+span{
+    padding-left: 1rem;
+}
